@@ -1,0 +1,230 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("VHAP'S Ultimate Ware | Private", "BloodTheme")
+
+--locks
+local locks = Window:NewTab("locks")
+local locksSection = locks:NewSection("locks")
+
+locksSection:NewButton("linux v1", "Bind is c aimbot and Silent Aim Bind is Q", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/enkralX/enkralX/main/linux/aimbot/new/v2/whitelisted"))()
+end)
+
+locksSection:NewButton("karl's lock", "q to lock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kar1l/karlslock/main/lua"))()
+end)
+
+locksSection:NewButton("puppyware", "op", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/qYCCR1L7'))()
+end)
+
+locksSection:NewButton("new thusky", "new thusky op", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/TzDrnrQH'))()
+end)
+
+locksSection:NewButton("thusky tracer", "good tracer", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/YVZQgvV0'))()
+end)
+
+locksSection:NewButton("earth silent aim", "best silent aim", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/xfQSRusv'))()
+end)
+
+locksSection:NewButton("bozo aimlock", "bozo", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/UZSKNT5Q'))()
+end)
+
+locksSection:NewButton("dxhook", "lock", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/0j0BiT4z'))()
+end)
+
+locksSection:NewButton("6akan lock", "lock", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/3U5GhBbQ'))()
+end)
+
+--Sets
+local Sets = Window:NewTab("Sets")
+local SetsSection = Sets:NewSection("Sets")
+SetsSection:NewLabel("20-40 ping sets")
+SetsSection:NewLabel("0.15529888")
+SetsSection:NewLabel("0.125918")
+SetsSection:NewLabel("0.109333")
+SetsSection:NewLabel("0.1025")
+SetsSection:NewLabel("0.102566")
+SetsSection:NewLabel("0.1088344")
+SetsSection:NewLabel("0.187")
+SetsSection:NewLabel("0.1145")
+SetsSection:NewLabel("0.1499")
+SetsSection:NewLabel("0.13093")
+SetsSection:NewLabel("0.10346")
+SetsSection:NewLabel("0.1230194")
+SetsSection:NewLabel("-------------------------------------------------")
+SetsSection:NewLabel("40-60 ping sets")
+SetsSection:NewLabel("0.19")
+SetsSection:NewLabel("0.141")
+SetsSection:NewLabel("0.153")
+SetsSection:NewLabel("0.125")
+SetsSection:NewLabel("0.131841")
+SetsSection:NewLabel("-------------------------------------------------")
+SetsSection:NewLabel("70-90 ping sets")
+SetsSection:NewLabel("0.1357")
+SetsSection:NewLabel("0.1355")
+SetsSection:NewLabel("0.1437")
+SetsSection:NewLabel("0.11923")
+SetsSection:NewLabel("0.13772123")
+SetsSection:NewLabel("0.12313232")
+SetsSection:NewLabel("0.1332241241231")
+SetsSection:NewLabel("0.1368123")
+SetsSection:NewLabel("0.134123")
+SetsSection:NewLabel("0.15580")
+SetsSection:NewLabel("0.122738")
+SetsSection:NewLabel("-------------------------------------------------")
+SetsSection:NewLabel("110-140 ping far / mid / close sets")
+SetsSection:NewLabel("0.159")
+SetsSection:NewLabel("0.15634")
+SetsSection:NewLabel("0.1659921")
+SetsSection:NewLabel("0.166")
+SetsSection:NewLabel("0.124")
+SetsSection:NewLabel("0.1455")
+SetsSection:NewLabel("0.12399")
+SetsSection:NewLabel("0.1655")
+SetsSection:NewLabel("0.15465")
+SetsSection:NewLabel("0.156692")
+SetsSection:NewLabel("0.165773")
+SetsSection:NewLabel("-------------------------------------------------")
+SetsSection:NewLabel("140-180 ping Close/ mid range sets")
+SetsSection:NewLabel("0.129934")
+SetsSection:NewLabel("0.1652131")
+SetsSection:NewLabel("0.125333")
+SetsSection:NewLabel("0.1223333")
+SetsSection:NewLabel("0.15")
+SetsSection:NewLabel("0.16")
+SetsSection:NewLabel("0.165455312399999 (far)")
+SetsSection:NewLabel("0.16779123")
+SetsSection:NewLabel("0.1235666")
+SetsSection:NewLabel("0.1690")
+SetsSection:NewLabel("0.1923111")
+SetsSection:NewLabel("-------------------------------------------------")
+SetsSection:NewLabel("far / mid 200-300 ping sets")
+SetsSection:NewLabel("0.165771")
+SetsSection:NewLabel("0.1746")
+SetsSection:NewLabel("0.1567")
+SetsSection:NewLabel("0.1654")
+SetsSection:NewLabel("0.18321")
+SetsSection:NewLabel("0.1456")
+SetsSection:NewLabel("0.165561")
+SetsSection:NewLabel("0.18742")
+SetsSection:NewLabel("0.16457")
+SetsSection:NewLabel("0.16537")
+SetsSection:NewLabel("0.12194")
+SetsSection:NewLabel("close 200-300 ping sets")
+SetsSection:NewLabel("0.16780")
+SetsSection:NewLabel("0.165732")
+SetsSection:NewLabel("0.15692")
+SetsSection:NewLabel("0.16942")
+SetsSection:NewLabel("0.165782")
+SetsSection:NewLabel("0.19284")
+SetsSection:NewLabel("0.166547")
+SetsSection:NewLabel("0.1651")
+SetsSection:NewLabel("0.165566")
+SetsSection:NewLabel("-------------------------------------------------")
+SetsSection:NewLabel("more sets coming soon....")
+
+ --cframe
+ local cframe = Window:NewTab("cframe")
+ local cframeSection = cframe:NewSection("cframe")
+
+ cframeSection:NewButton("cframe (doesn't work)", "makes u go fast", function()
+     loadstring(game:HttpGet('https://pastebin.com/raw/jiVrJe6i'))()
+ end)
+
+ cframeSection:NewButton("fake macro", "makes u go fast but fake", function()
+     loadstring(game:HttpGet('https://pastebin.com/raw/R1K3Vxj3'))()
+ end)
+ 
+ --AntiStuff
+local AntiStuff = Window:NewTab("AntiStuff")
+local AntiStuffSection = AntiStuff:NewSection("AntiStuff")
+
+AntiStuffSection:NewButton("anti afk", "never get kicked for being idle 20 mins", function()
+    loadstring(game:httpget('https://pastebin.com/raw/40Hs37nL'))()
+end)
+
+--Player
+local Player = Window:NewTab("Player")
+local PlayerSection = Player:NewSection("Player")
+
+PlayerSection:NewButton("korblox and headless", "fake korblox and headless", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/aUkeQtK5'))()
+end)
+
+PlayerSection:NewButton("tryhard animation", "Semi FE tryhard animation", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/3c1B2QFJ'))()
+end)
+
+PlayerSection:NewButton("giant", "makes u giant (need to be max fat)", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/rmjZrM29'))()
+end)
+
+PlayerSection:NewButton("tiny", "makes you tiny", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/kg3n1Zt9'))()
+end)
+
+PlayerSection:NewButton("da hood crasher", "crashes server", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/dhcrash_gen2/main/crash", true))()
+end)
+
+   --godmode
+   local godmode = Window:NewTab("godmode")
+   local godmodeSection = godmode:NewSection("godmode")
+   
+   godmodeSection:NewButton("full godmode", "u never die", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/jiVrJe6i'))()
+   end)
+
+   godmodeSection:NewButton("godmode melee", "you can't die from a melee", function()
+       loadstring(game:HttpGet('https://pastebin.com/raw/phqNSSUd'))()
+       end)
+   
+       godmodeSection:NewButton("godmode guns", "you can't die from guns", function()
+           loadstring(game:HttpGet('https://pastebin.com/raw/qQFVqrTx'))()
+           end)
+
+           --FunnyScripts
+local FunnyScripts = Window:NewTab("FunnyScripts")
+local FunnyScriptsSection = FunnyScripts:NewSection("FunnyScripts")
+
+FunnyScriptsSection:NewButton("telekenesis", "make people fly when they are down", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/MQgXRVjY'))()
+end)
+
+FunnyScriptsSection:NewButton("be a floppa", "you need the shirt in my discord to look like floppa", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/aLLQ9mvs'))()
+end)
+
+FunnyScriptsSection:NewButton("mimic", "be a MIMIC avatar in discord server", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/KBc5w7qS'))()
+end)
+
+FunnyScriptsSection:NewButton("FE flip", "Front flip z Back flip x AirJump c", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/crPcd0vq'))()
+end)
+
+--Other
+local Other = Window:NewTab("Other")
+local OtherSection = Other:NewSection("other")
+OtherSection:NewLabel("credits: VHASP !#3333 for the idea")
+
+OtherSection:NewLabel("gui made by real dingus#6354")
+
+OtherSection:NewLabel("discord: https://discord.gg/vVUYNeac")
+
+OtherSection:NewLabel("some scripts might not work")
+
+OtherSection:NewKeybind("Toggle gui", "hides the gui", Enum.KeyCode.F, function()
+	Library:ToggleUI(z)
+end)
+
+OtherSection:NewButton("infinite yield", "FE admin commands", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/KQjPgjeX'))()
+    end)
+    
