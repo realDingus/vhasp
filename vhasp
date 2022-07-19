@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("VHAP'S Ultimate Ware | Private", "BloodTheme")
+local Window = Library.CreateLib("Vhasp's Ultimate Ware 2.5", "BloodTheme")
 
 --locks
 local locks = Window:NewTab("locks")
